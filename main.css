@@ -1,0 +1,42 @@
+body{
+	background-image:url("../images/ground.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	background-color:orange; 
+
+}
+img{
+	position: absolute;
+	list-style-image: 50px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-flex;
+	float: left;
+	padding: 10px;
+	color: white;
+	border: 20px;
+}
+
+ 
+nav ul{
+	display: flex;
+	font-size: 20px;
+	padding: 15px;
+	border-right: cyan;
+	float:left;
+
+}
+ nav ul li a:hover {
+  background-color: white;
+}
+h4{
+	text-align: center;
+	font-weight: 15px;
+}
+p{
+	top: 30px;
+	bottom: 30px;
+}
